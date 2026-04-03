@@ -142,7 +142,7 @@ nav.nav-inner { display: flex; justify-content: space-between; align-items: cent
 
 .logo { display: flex; align-items: center; gap: 0.9rem; text-decoration: none; transition: var(--transition-fast);}
 .logo:hover { opacity: 0.8; }
-.logo img { height: 65px; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1)); }
+.logo img { height: 50px; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1)); }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-text .brand { font-size: 0.95rem; font-weight: 800; color: var(--dark); letter-spacing: -0.01em; }
 .logo-text .tagline { font-size: 0.58rem; color: var(--green); font-weight: 600; letter-spacing: 0.03em; font-style: italic; }
