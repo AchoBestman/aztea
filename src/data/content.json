@@ -1,0 +1,89 @@
+{
+  "brand": {
+    "name": "AZTEA COMPANY",
+    "tagline": "Innover · Cultiver · Prospérer",
+    "logo": "/aztea.png"
+  },
+  "nav": {
+    "links": [
+      { "label": "ACCUEIL", "href": "#hero" },
+      { "label": "DIVISIONS", "href": "#divisions" },
+      { "label": "VISION", "href": "#about" },
+      { "label": "CONTACT", "href": "#contact" }
+    ],
+    "cta": "NOUS PARLER"
+  },
+  "hero": {
+    "eyebrow": "",
+    "title": "L'innovation <br> au service de la <span class='highlight'>terre.</span>",
+    "description": "Une synergie unique entre technologie de pointe, élevage responsable <br> et agriculture durable pour bâtir l'autonomie de demain.",
+    "cta_primary": "NOS DIVISIONS",
+    "cta_secondary": "DÉCOUVRIR NOTRE VISION &rarr;",
+    "image": null
+  },
+  "divisions": {
+    "badge": "NOS PÔLES D'EXCELLENCE",
+    "title": "Trois divisions, une seule <span class='text-green'>ambition.</span>",
+    "items": [
+      {
+        "id": "01",
+        "title": "TECHNOLOGIES",
+        "description": "Nous façonnons des écosystèmes numériques robustes en fusionnant innovation agile et stabilité opérationnelle.",
+        "features": [
+          "Développement Logiciel (Web, Mobile, Enterprise)",
+          "DevOps (CI/CD pipelines, Cloud Automation)",
+          "Infrastructures Scalables (Cloud & On-premise)"
+        ],
+        "image": "/tech.png",
+        "cta": "CONSULTER NOS SOLUTIONS",
+        "accent": "red"
+      },
+      {
+        "id": "02",
+        "title": "ÉLEVAGES",
+        "description": "Un élevage moderne et respectueux, garantissant une production saine et durable de volailles et de bétails.",
+        "features": [
+          "Volaille : Poules pondeuses et chairs de haute qualité",
+          "Bétail : Élevage sélectif de Moutons et Cabris",
+          "Bétail : Sélection de Béliers pour la reproduction"
+        ],
+        "image": "/livestock.png",
+        "cta": "VOIR LA PRODUCTION",
+        "accent": "green"
+      },
+      {
+        "id": "03",
+        "title": "AGRICULTURE",
+        "description": "Du labour à la récolte, nous exploitons la terre avec une approche raisonnée pour des produits maraîchers frais.",
+        "features": [
+          "Culture intensive du Manioc (Boutures & Transformation)",
+          "Maraîchers : Aubergines, Gombo, Piments et Tomates",
+          "Gestion agropastorale durable et circuit court"
+        ],
+        "image": "/agriculture.png",
+        "cta": "COMMANDES DIRECTES",
+        "accent": "green"
+      }
+    ]
+  },
+  "vision": {
+    "badge": "NOTRE VISION",
+    "title": "Une technologie <span class='text-red'>enracinée.</span>",
+    "description": "Chez Aztea, nous croyons que le progrès technologique ne doit pas se faire au détriment de la terre. Nos solutions DevOps et logicielles sont conçues pour optimiser les cycles agricoles et d'élevage, créant un écosystème en circuit court.",
+    "stats": [
+      { "value": "100%", "label": "Durable" },
+      { "value": "Tech", "label": "Driven" }
+    ],
+    "image": "/agriculture.png"
+  },
+  "contact": {
+    "title": "Prêt à cultiver le <span class='text-green'>futur</span> ?",
+    "description": "Solutions logicielles ou commandes agricoles, parlons-en aujourd'hui.",
+    "cta": "CONTACTER L'ÉQUIPE",
+    "email": "contact@aztea.company"
+  },
+  "footer": {
+    "about": "L'excellence par le travail de la terre et de l'esprit.",
+    "copyright": "&copy; 2026 AZTEA COMPANY. TOUS DROITS RÉSERVÉS."
+  }
+}

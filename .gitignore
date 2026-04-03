@@ -1,0 +1,49 @@
+# ── Build outputs ──
+dist/
+dist-ssr/
+
+# ── Dependencies ──
+node_modules/
+.pnp
+.pnp.js
+
+# ── Vite cache ──
+.vite/
+vite.config.ts.timestamp-*
+
+# ── TypeScript ──
+*.tsbuildinfo
+
+# ── Environment variables ──
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ── Editor & OS files ──
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── JetBrains IDEs ──
+.idea/
+
+# ── VS Code ──
+.vscode/*
+!.vscode/extensions.json
+
+# ── Logs ──
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Misc ──
+*.local
