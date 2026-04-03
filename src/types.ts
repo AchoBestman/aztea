@@ -20,7 +20,7 @@ export interface Hero {
   description: string;
   cta_primary: string;
   cta_secondary: string;
-  image: string;
+  image: string | null;
 }
 
 export interface DivisionItem {

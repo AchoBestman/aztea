@@ -8,11 +8,12 @@ import { Vision } from './components/Vision.js';
 import { Contact } from './components/Contact.js';
 import { Footer } from './components/Footer.js';
 
+// Import JSON directly — bundled by Vite at build time (works on Vercel & all static hosts)
+import contentData from './data/content.json';
+
 async function initApp() {
   try {
-    const res = await fetch('/src/data/content.json');
-    if (!res.ok) throw new Error('Failed to load content.json');
-    const data: Content = await res.json();
+    const data = contentData as unknown as Content;
 
     // ── Inject Navbar
     const navEl = document.getElementById('navbar');
