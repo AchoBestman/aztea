@@ -57,6 +57,7 @@ export interface Contact {
   description: string;
   cta: string;
   email: string;
+  whatsapp: string;
 }
 
 export interface Footer {

@@ -11,9 +11,9 @@ export const Hero = (hero: HeroType): string => {
             <a href="#about" class="btn btn-link">${hero.cta_secondary}</a>
         </div>
         <div class="hero-pills">
-            <span class="pill"><span class="pill-dot red"></span>Technologie & DevOps</span>
-            <span class="pill"><span class="pill-dot green"></span>Élevages & Bétails</span>
-            <span class="pill"><span class="pill-dot gold"></span>Agriculture & Maraîchers</span>
+            <span class="pill"><span class="pill-dot red"></span>Technologie</span>
+            <span class="pill"><span class="pill-dot gold"></span>Élevage</span>
+            <span class="pill"><span class="pill-dot green"></span>Agriculture</span>
         </div>
     </div>
   `;

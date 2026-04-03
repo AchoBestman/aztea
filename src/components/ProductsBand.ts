@@ -8,8 +8,7 @@ export const ProductsBand = (): string => {
                     <li><span></span>Développement Web & Mobile</li>
                     <li><span></span>Logiciels Entreprise (ERP, CRM)</li>
                     <li><span></span>Pipelines CI/CD (GitHub Actions, GitLab)</li>
-                    <li><span></span>Cloud Automation (AWS, GCP)</li>
-                    <li><span></span>Infrastructure as Code (Terraform)</li>
+                    <li><span></span>Cloud Automation</li>
                     <li><span></span>Monitoring & Observabilité</li>
                 </ul>
             </div>

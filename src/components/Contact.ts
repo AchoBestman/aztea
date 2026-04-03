@@ -10,7 +10,8 @@ export const Contact = (contact: ContactType): string => {
         </div>
         <div class="contact-info reveal-up delay-2">
             <span class="contact-chip"><strong>Email :</strong> ${contact.email}</span>
-            <span class="contact-chip"><strong>Zone :</strong> Afrique Centrale</span>
+            <span class="contact-chip"><strong>Whatsapp :</strong> ${contact.whatsapp}</span>
+            <span class="contact-chip"><strong>Zone :</strong> Afrique</span>
         </div>
     </div>
   `;

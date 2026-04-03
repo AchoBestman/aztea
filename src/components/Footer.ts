@@ -22,7 +22,7 @@ export const Footer = (brand: Brand, footer: FooterType, nav: Nav): string => {
                 <h5>Entreprise</h5>
                 <a href="#about">Notre Vision</a>
                 <a href="#contact">Nous Contacter</a>
-                <a href="mailto:contact@aztea.company">contact@aztea.company</a>
+                <a href="mailto:contact@aztea.com">contact@aztea.com</a>
             </div>
         </div>
         <div class="footer-bar">
